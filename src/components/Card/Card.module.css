@@ -1,0 +1,281 @@
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+.oneBlock {
+    background-color: #fff;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+}
+.navigator ul {
+    display: flex;
+    list-style: none;
+}
+
+.navigator ul li {
+    margin: 14px 30px 0px;
+    font-size: 14px;
+    color: #22356F;
+}
+
+.button {
+    margin-top: 25px;
+    border-radius: 22px;
+    background: #62D0DF;
+    height: 50px;
+    width: 150px;
+    border: 0px;
+    font-family: Larsseit;
+    color: #fff;
+}
+.logoName {
+    margin-top: 27px;
+    color: #62D0DF;
+    font-family: Larsseit;
+}
+.aClass ul {
+    list-style: none;
+    margin-left: 160px;
+    padding: 0px;
+}
+.aClass ul li {
+    margin-bottom: 16px;
+    font-size: 24px;
+    color: #22356F;
+    font-family: Larsseit;
+}
+.title {
+    font-size: 48px;
+    color: #22356F;
+    font-family: Larsseit;
+    letter-spacing: -0.035em;
+    height: 150px;
+    margin-left: 160px;
+}
+.button2 {
+    height: 50px;
+    width: 150px;
+    background: #F9B640;
+    border: 0px;
+    letter-spacing: 0.1em;
+    font-family: Larsseit;
+    margin-left: 160px;
+    margin-top: 63px;
+    margin-bottom: 75px
+}
+.button2 a {
+    color: white;
+}
+.button3 {
+    height: 50px;
+    width: 150px;
+    border: 0px;
+    background:#F4F9E2;
+    letter-spacing: 0.1em;
+    margin-left: 38px;
+    font-family: Larsseit;
+    margin-top: 63px;
+}
+.button3 a {
+   color: #FAB63E; 
+}
+.logoName2 {
+    color: #62D0DF;
+    font-family: Larsseit;
+    margin-left: 160px;
+    margin-top: 150px;
+    margin-bottom: 67px;
+}
+.navigator ul li:hover {
+    color:black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.twoBlock {
+    height: 607px;
+    background-color: #62D0DF;
+}
+.titleTwo ul {
+   width: 555px;
+   height: 235px;
+   padding: 0px;
+   margin-left: 178px;
+   margin-top: 151px;
+   list-style: none;
+}
+.img2 {
+    background-image: url(./image/img2.png);
+    height: 604px;
+    width: 525px;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+.titleTwo {
+    display: flex;
+    justify-content: space-between;
+}
+.titleTwo ul h2 {
+    font-size: 36px;
+    font-family: Larsseit;
+    letter-spacing: -0.006em;
+    color: #fff;
+    margin-bottom: 75px;
+}
+.titleOneBlock {
+    font-size: 24px;
+    font-family: Larsseit;
+    color:#fff;
+    line-height: 39px;
+}
+.titleOneBlock2 {
+    font-family: larsseit;
+    color:#fff;
+    font-size: 20px;
+    line-height: 30px;
+}
+/* 3-block */
+.threeBlock {
+    height: 420px;
+    background: #fff;
+    display: flex;
+}
+.threeBlock span {
+    font-size: 16px;
+    font-family: Larsseit;
+    color:#22356F;
+    letter-spacing: 0.06em;
+    margin:156px 225px 0px 106px;
+}
+.threeBlock ul {
+    list-style: none;
+    margin: 150px 74px;
+    font-family: Larsseit;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+    color:#22356F;
+    width: 592px;
+    height: 210px;
+}
+.titleEnd {
+    color: rgba(34, 53, 111, 0.5);
+    font-family: Larsseit;
+    font-size: 16px;
+    text-align: center;
+    background-color: #fff;
+    height: 40px;
+}
+.fourBlock {
+    display: flex;
+}
+.fiveBlock {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1520px;
+}
+.sixBlock {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+}
+/* === */
+
+.topTitle {
+    font-size: 16px;
+    font-family: Larsseit;
+    line-height: 13px;
+    color:#22356F;
+    letter-spacing: 0.06em;
+    width: 225px;
+    height: 225px;
+}
+.centerTitle {
+    font-size: 36px;
+    font-family: Larsseit;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+    color:#22356F;
+    width: 676px;
+    height: 215px;
+    margin-bottom: 150px;
+}
+.centerTitle span {
+    color: rgb(65, 149, 228);
+}
+.endTitle {
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FAB63E;
+    width: 518px;
+    height: 43px;
+}
+.sevenBlock {
+    margin-left: 150px;
+    margin-top: 103px;
+}
+.titleEightBlock p {
+    font-family: Larsseit;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+    margin-bottom: 195px;
+}
+.titleEightBlock h1 {
+    font-family: Larsseit;
+    line-height: 94px;
+    letter-spacing: -0.01em;
+    font-size: 64px;
+}
+.titleEightBlock h2 {
+    font-family: Larsseit;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.005em;
+    width: 579px;
+    height: 253px;
+}
+.titleEightBlock div {
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #62D0DF;
+}
+.eightBlock {
+    display: flex;
+    justify-content: space-between;
+    background-color: #22356F;
+    color:#fff;
+}
+.titleEightBlock {
+    margin: 103px 0px 0px 180px;
+}
+/* == */
+.nineBlock {
+    display: flex;
+   background-color: #fff;
+   justify-content: space-between;
+}
+.endBlock {
+    height: 80px;
+    background: #62D0DF;
+    display: flex;
+    align-items: center;
+}
+.endBlock p {
+    font-family: Larsseit;
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    margin-left: 180px;
+}
